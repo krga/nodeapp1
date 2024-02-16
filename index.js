@@ -6,7 +6,7 @@ const port = 3000
 const env = process.env.NODE_ENV;
 
 app.get('/', (req, res) => {
-  res.send('Hello '+env+': Version 02!')
+  res.send('Hello '+env+': Version 03!')
 })
 
 app.listen(port, () => {
